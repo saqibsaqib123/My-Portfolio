@@ -21,7 +21,7 @@ nav ul li {
     margin: 0px 27px;
 }
 
-main{
+main {
     display: flex;
     justify-content: space-between;
 }
@@ -69,6 +69,16 @@ main button span {
     color: #F8F7F9;
 }
 
-main img{
+main img {
     width: 500px;
+}
+
+footer a {
+    color: #F8F7F9;
+    text-decoration: none;
+    margin: 8px 0px;
+}
+
+a:hover {
+    color: #ffffff;
 }
