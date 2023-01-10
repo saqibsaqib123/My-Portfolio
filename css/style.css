@@ -84,19 +84,9 @@ main button span {
     color: #F8F7F9;
 }
 
-.ellipse {
-    position: absolute;
-    width: 612px;
-    height: 382px;
-    left: 650px;
-    top: 203px;
-    background: rgba(248, 247, 249, 0.2);
-    filter: blur(128px);
-    border-radius: 50%;
-}
-
-main img {
+.main img {
     width: 500px;
+  background-image: radial-gradient(circle, rgba(209, 202, 202, 0.5) 40%, #1E1E1E 60%);
 }
 
 footer {
@@ -107,7 +97,7 @@ footer {
     align-content: center;
     justify-content: space-around;
     align-items: center;
-    background: rgb(21 20 20);
+    background: linear-gradient(to bottom, rgb(21 20 20), #1E1E1E);
 }
 
 footer a {

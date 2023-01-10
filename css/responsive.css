@@ -1,3 +1,4 @@
+
 @media screen and (max-width:800px) {
     nav {
         flex-direction: column;
@@ -15,5 +16,6 @@
 
     main img {
         margin-top: 40px;
+        width: 300px;
     }
 }
