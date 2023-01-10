@@ -1,9 +1,19 @@
 @media screen and (max-width:800px) {
-    nav{
+    nav {
         flex-direction: column;
     }
-    main{
+
+    main {
         flex-direction: column;
         align-items: center;
+    }
+
+    .ellipse {
+        left: 97px;
+        top: 826px;
+    }
+
+    main img {
+        margin-top: 40px;
     }
 }
