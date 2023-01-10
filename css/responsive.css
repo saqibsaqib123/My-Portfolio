@@ -4,6 +4,10 @@
         flex-direction: column;
     }
 
+    nav ul li {
+        margin: 0px 13px;
+    }
+
     main {
         flex-direction: column;
         align-items: center;
@@ -17,5 +21,10 @@
     main img {
         margin-top: 40px;
         width: 300px;
+    }
+
+    footer{
+        flex-direction: column;
+        height: fit-content;
     }
 }
