@@ -17,6 +17,7 @@ nav {
     justify-content: space-between;
     background: var(--head-foot-color);
     align-items: center;
+    font-size: 1.2vw;
 }
 
 nav span {
@@ -53,21 +54,21 @@ main {
 
 .name {
     font-family: 'Poppins';
-    font-size: 18px;
+    font-size: 1.25vw;
 }
 
 h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 56px;
+    font-size: 4vw;
     margin: 13px 0px 0px 0px;
 }
 
 .detail {
     margin: 30px 0px;
     font-family: 'Poppins';
-    font-size: 18px;
+    font-size: 1.4vw;
     color: rgba(248, 247, 249, 0.5);
 }
 
@@ -81,7 +82,7 @@ main button {
 main button span {
     font-family: 'Poppins';
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 1.3vw;
     color: #F8F7F9;
 }
 
