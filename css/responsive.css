@@ -18,14 +18,13 @@
         top: 826px;
     }
 
-    main img {
-        margin-top: 40px;
-        width: 300px;
-        display: none;
+    #my-img {
+        width: 178px;
+        border-radius: 50%;
     }
 
     .slider{
         margin: 6px auto;
-        width: 82vw;
+        width: 65vw;
     }
 }

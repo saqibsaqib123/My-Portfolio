@@ -38,6 +38,7 @@ nav ul li {
 
 main {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
 }
 
@@ -93,6 +94,7 @@ main button span {
     margin-top: 31px;
     width: 500px;
     background-image: radial-gradient(circle, rgba(209, 202, 202, 12%) 38%, #1E1E1E 60%);
+    position: relative;
     z-index: 1;
 }
 
