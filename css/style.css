@@ -111,6 +111,7 @@ main button span {
     overflow-x: scroll;
     margin-top: -282px;
     margin-left: 44px;
+    flex-direction: row;
 }
 
 #slider::-webkit-scrollbar {
