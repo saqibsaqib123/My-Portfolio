@@ -3,6 +3,10 @@
     margin: 0px;
 } */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #1E1E1E;
     color: #F8F7F9;
@@ -98,10 +102,10 @@ main button span {
     z-index: 1;
 }
 
-.slider {
+#slider {
     width: 52vw;
     margin: 30px 0px;
-    display: flex;
+    display: none;
     justify-content: flex-start;
     align-items: stretch;
     overflow-x: scroll;
@@ -109,7 +113,7 @@ main button span {
     margin-left: 44px;
 }
 
-.slider::-webkit-scrollbar{
+#slider::-webkit-scrollbar {
     display: none;
 }
 
