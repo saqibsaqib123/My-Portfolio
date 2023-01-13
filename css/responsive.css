@@ -21,10 +21,11 @@
     main img {
         margin-top: 40px;
         width: 300px;
+        display: none;
     }
 
-    footer{
-        flex-direction: column;
-        height: fit-content;
+    .slider{
+        margin: 6px auto;
+        width: 82vw;
     }
 }

@@ -37,7 +37,6 @@ nav ul li {
 }
 
 main {
-    overflow: hidden;
     display: flex;
     justify-content: space-between;
 }
@@ -90,27 +89,54 @@ main button span {
     color: #F8F7F9;
 }
 
-
-main img {
+#my-img {
+    margin-top: 31px;
     width: 500px;
     background-image: radial-gradient(circle, rgba(209, 202, 202, 12%) 38%, #1E1E1E 60%);
+    z-index: 1;
 }
 
-footer {
-    height: 20vh;
-    min-height: 10vh;
+.slider {
+    width: 52vw;
+    margin: 30px 0px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background: linear-gradient(to bottom, rgb(21 20 20), #1E1E1E);
+    justify-content: flex-start;
+    align-items: stretch;
+    overflow-x: scroll;
+    margin-top: -282px;
+    margin-left: 44px;
 }
 
-footer a {
+.slider::-webkit-scrollbar{
+    display: none;
+}
+
+.project {
+    padding: 9px;
+    margin: 0px 9px;
+    background: #323131;
+    border-radius: 18px;
+}
+
+.project-description {
+    padding: 5px 7px;
+    background: #1E1E1E;
+    border-radius: 7px;
+}
+
+.project a {
+    text-decoration: none
+}
+
+.project-img {
+    width: 200px;
+}
+
+.description-heading {
     color: #F8F7F9;
-    text-decoration: none;
-    margin: 0px 21px;
+    margin: 7px 0px;
 }
 
-footer a:hover {
-    color: rgb(121, 121, 121);
+.description-span {
+    color: rgba(248, 247, 249, 0.5);
 }
