@@ -27,6 +27,7 @@
         margin: 8px auto;
         margin-top: 20px;
         width: 65vw;
+        align-items: center;
     }
 
     .project-img{
